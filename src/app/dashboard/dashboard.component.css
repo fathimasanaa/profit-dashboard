@@ -1,0 +1,28 @@
+.dashboard{
+    display: flex;
+    justify-content: space-between;
+}
+.overview{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    
+}
+
+.growth{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.area{
+    height:500px;
+    width: 650px;
+}
+.report{
+    height: 250px;
+    width: 400px;
+     /* padding-top: 60px; */
+    /* margin-left: 40px; */
+}
+
+

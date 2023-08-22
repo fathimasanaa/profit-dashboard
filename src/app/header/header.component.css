@@ -1,0 +1,37 @@
+
+.header-bar{
+    margin-left: 500px;
+}
+
+.logo{
+    display: flex;
+    align-items: start;
+}
+.logo p{
+    margin-top: 10px;
+}
+
+mat-toolbar{
+    border-radius: 30px;
+    height: fit-content;
+
+}
+
+input{
+    padding-left: 20px;
+    border-radius: 10px;
+    border: none;
+    padding-top: 10px;
+    text-align: left;
+}
+.example-spacer{
+    width: 400px;
+}
+.header-bar{
+    margin-right: 15px;
+}
+
+ span{
+    font-size: 15px;
+    padding-left: 10px;
+}

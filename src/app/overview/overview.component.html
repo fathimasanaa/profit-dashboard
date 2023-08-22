@@ -1,0 +1,41 @@
+<div class="overview">
+    <h1>Overview</h1>
+
+    <div class="menu">
+        <p>KPIs </p>
+
+        <button mat-button [matMenuTriggerFor]="menu"><mat-icon>morevert</mat-icon></button>
+        <mat-menu #menu="matMenu">
+            <button mat-menu-item>Item 1</button>
+            <button mat-menu-item>Item 2</button>
+        </mat-menu>
+    </div>
+
+    <div class="current">
+        <p>current MRR</p>
+        <div class="percent">
+            <h2>$855.4K</h2>
+            <p> <mat-icon>moving</mat-icon>16%</p>
+        </div>
+    </div>
+
+
+    <div class="current">
+        <p>current Customers</p>
+        <div class="percent">
+            <h2>127,754</h2>
+            <p> <mat-icon>moving</mat-icon>17%</p>
+        </div>
+    </div>
+
+
+    <div class="current">
+        <p>Active Customers</p>
+        <div class="percent">
+            <h2>73.57%</h2>
+            <p> <mat-icon>moving</mat-icon>21%</p>
+        </div>
+    </div>
+
+
+</div>

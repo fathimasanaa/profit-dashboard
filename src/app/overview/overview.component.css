@@ -1,0 +1,27 @@
+
+
+.overview{
+    width: 250px;
+    height: 400px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items:start;
+}
+h1{
+    font-weight: 500;
+}
+button{
+    margin-bottom: 10px;
+    padding-left: 180px;
+}
+.current p{
+    font-size: 12px;
+}
+.percent{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
